@@ -19,6 +19,17 @@ html {
   font-size: 16px;
 }
 
+h1{
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+main {
+  width: 414px;
+  flex-shrink: 0;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,6 +37,60 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  width: 414px;
+  height: 1987px;
+}
+
+nav {
+  font-family: Roboto;
+  font-size: 16px;
+  display: inline-flex;
+  height: 19px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 17px;
+  flex-shrink: 0;
+  margin: 20px 215px 20px 8px;
+}
+
+.TitleAndDescription {
+  display: flex;
+  width: 330px;
+  height: 64px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  margin-bottom: 47px;
+  margin-left: 8px;
+}
+
+.structure {
+ margin-bottom: 10px;
+ margin: 20px 0px 10px 8px;
+}
+
+h2 {
+  font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+text-decoration-line: underline;
+margin-left: 8px;
+}
+
+p {
+  font-family: Roboto;
+}
+
+.TextExplication {
+  margin: 54px 0px 56px 8px 
+}
+
+.main-center {
+  text-align: center;
+  font-family: Roboto;
+  margin: 28px 0px 16px 0px;
 }
 
 a {
@@ -39,42 +104,27 @@ video {
   vertical-align: text-top;
 }
 
+.sources {
+  margin: 22px 0px 36px 8px;
+}
+
+.textFooter {
+  margin-left: 8px;
+  margin-bottom: 30px;
+}
+
+footer {
+  font-family: Roboto;
+  background-color: black;
+  color: white;
+  width: 414px;
+  height: 140px;
+ } 
+
+
 /* ====================================
 // base rules
 // ==================================== */
-body {
-  font-family: 'Roboto', sans-serif;
-
-}
-
-p {
-  font-size: 16px;
-  color: #000000;
-  line-height: 26px;
-}
-
-header a {
-  font-size: 16px;
-}
-
-footer a {
- font-size: 10px;
-  color: #000000;
-}
-
-main h2 {
-  font-size: 12px;
-  font-weight: lighter;
-}
-
-h1 {
-  font-size: 30px;
-  font-weight: lighter;
-}
-
-p {
-  font-size: 12px;
-}
 
 
 
